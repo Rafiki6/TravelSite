@@ -1,0 +1,50 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.photo{
+ 
+    background-image: url("../images/imageheader.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: block;
+    width: auto;
+    object-fit: cover;
+  
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.navigation a{
+    text-decoration: none;
+    padding-top: 1em ;
+    padding-bottom: 3em;;
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+.paragrapher1{
+    margin: 2em;
+    padding: 1px;
+}
+.card img{
+    width: 40vw;
+    object-fit: cover;
+    height: 20vw;
+    
+}
+.card{
+    display: inline-block;
+    background-color: rgb(167, 158, 158);
+    padding: 1em;
+    margin: 1px;;
+}
+.photos{
+    text-align: center;
+    background-color: rgb(50, 199, 114);
+}
